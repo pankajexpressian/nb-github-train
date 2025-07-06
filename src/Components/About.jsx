@@ -10,7 +10,7 @@ import React from "react";
  * About background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to string that
  * represents what you see in that image.
  *
  * Need an image? Check out https://unsplash.com to download a image you
@@ -61,23 +61,17 @@ const About = () => {
         }}
       >
         <h2>About Myself</h2>
-        <p className="large">{description}</p>
-        <hr />
-        <ul
-          style={{
-            textAlign: "left",
-            columns: 2,
-            fontSize: "1.25rem",
-            margin: "2rem 3rem",
-            gap: "3rem",
-          }}
-        >
-          {skillsList.map((skill) => (
-            <li key={skill}>{skill}</li>
-          ))}
-        </ul>
-        <hr />
-        <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
+        <p className="large">
+          I am an API developer with over a decade of experience in designing and
+          developing robust APIs. Currently, I work as an architect at a leading
+          service company, where I help shape scalable and efficient API solutions
+          for diverse clients.
+          <br />
+          <br />
+          Outside of work, I enjoy listening to music, cooking, meeting friends,
+          and watching web series. I am passionate about continuous learning and
+          sharing knowledge with others.
+        </p>
       </div>
     </section>
   );

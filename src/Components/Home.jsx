@@ -20,10 +20,10 @@ import PropTypes from "prop-types";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/woman-with-tablet.jpg";
+import image from "../images/male-with-tablet.jpg";
 
 const imageAltText =
-  "Adult female in office setting leaning against a glass wall while holding a platinum Microsoft Surface Pro 7 in tablet mode preparing to write with Microsoft Surface Pen";
+  "Adult male in office setting holding a tablet";
 
 const Home = ({ name, title }) => {
   React.useEffect(() => {
@@ -53,6 +53,9 @@ const Home = ({ name, title }) => {
           top: "5rem",
           left: "2rem",
           width: "17rem",
+          color: "#fff",
+          textShadow: "0 2px 8px rgba(0,0,0,0.7)",
+          fontWeight: 700,
         }}
       >
         <h1>{name}</h1>
