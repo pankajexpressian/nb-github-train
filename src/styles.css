@@ -122,4 +122,13 @@ a:hover {
 img.socialIcon {
   height: 30px;
   width: 30px;
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+img.socialIcon:hover {
+  transform: rotate(360deg);
+}
+
+img.socialIcon:active {
+  transform: rotate(-360deg);
 }
